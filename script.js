@@ -82,21 +82,21 @@ document.addEventListener("DOMContentLoaded", function () {
     // Add click event listener to each marker
     marker.on("click", function () {
       // Perform action based on the label clicked
-      switch (label) {
+     switch (label) {
         case "A_":
-          window.location.href = "A_Block.html";
+          window.location.href = "a block.html";
           break;
         case "F_10":
-          window.location.href = "F_Block_10f.html";
+          window.location.href = "f block 10f.html";
           break;
         case "F_15":
-          window.location.href = "F_Block_15f.html";
+          window.location.href = "f block 15f.html";
           break;
         case "N":
-          window.location.href = "N_Block.html";
+          window.location.href = "n block.html";
           break;
         case "L":
-          window.location.href = "L_Block.html";
+          window.location.href = "l block.html";
           break;
         // Add more cases for other labels if needed
         default:
